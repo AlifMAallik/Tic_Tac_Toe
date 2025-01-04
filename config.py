@@ -1,10 +1,4 @@
 import pandas as pd
-
-print('PLAYER INFO: ')
-print('------------------------------------------------------------------\n')
-ef = pd.read_csv('player_detail.csv')
-print(ef)
-
 tic_tac_toe_board = {'top-L': ' ', 'top-M': ' ', 'top-R': ' ',
                      'mid-L': ' ', 'mid-M': ' ', 'mid-R': ' ',
                      'bot-L': ' ', 'bot-M': ' ', 'bot-R': ' ', }
